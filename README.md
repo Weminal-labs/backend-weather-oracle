@@ -1,8 +1,17 @@
-### 📌 Chú thích các chỉ số trong contract
+# ☁️ Weather oracle backend
+## 📌About project
+This repo will implement a backend to get weather from real life and push data to web3.
+### Some attributes
 ```
-🌬️ Tốc độ gió: lấy chỉ số hiện tại/10 = tốc độ (m/s)
-🌦️ Humidity: là chỉ số % của độ ẩm không khí
-Temp: tính bằng chỉ số Kenvin (Kenvin = độ C - 273)
-visibility: do đang sắp sang hạ nên hầu hết các khu vực đề có tầm nhìn tối đa (1000)
-☁️ clouds: tỉ lệ che phủ bầu trời
+Wind speed: take the current index/10 = speed (m/s)
+Humidity: is the percentage index of air humidity
+Temp: calculated by Kelvin index (Kelvin = degrees Celsius - 273)
+Visibility: due to the approaching summer, most areas are expected to have maximum visibility (1000)
+Clouds: the ratio of sky coverage
+🌦️ rain: whether it is raining or not, and the level of rainfall
+Deg: wind direction
 ```
+## 🗒️ Docs
+[Openweather](https://openweathermap.org/)
+
+[Get Real-Time Weather Data with the Sui Weather Oracle](https://blog.sui.io/sui-weather-oracle/)
